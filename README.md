@@ -1,6 +1,6 @@
 # NORIMMO
 
-For this exercise, we will use HTML, CSS, JS and the Bootstrap framework, to create a NorImmo real estate agency site.
+For this exercise, we work as a team, Franck and me. We will use HTML, CSS, JS and the Bootstrap framework, to create a NorImmo real estate agency site.
 
 ## Technical criteria
 
@@ -16,5 +16,5 @@ For this exercise, we will use HTML, CSS, JS and the Bootstrap framework, to cre
 
 <details>
 <summary>Functional Tree</summary>
-<img src="info/functional_tree.jpg" alt="functional_tree" style="height: 100px; width:100px;"/>
+<img src="doc/functional_tree.jpg" alt="functional_tree" style="height: 100px; width:100px;"/>
 </details>
