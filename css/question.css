@@ -1,0 +1,11 @@
+.bg-question{
+    background-color:rgba(0, 255, 0, 0.308);
+}
+
+.bg-p{
+    background-color: lightgray;
+}
+
+div.pointer{
+    cursor: pointer;
+}
