@@ -46,10 +46,49 @@
     </div>
 
     <!-- MAIN -->
-    <main class="container col-11">
-      <section class="text-center">
-        <h2>Estimation</h2>
-      </section>
+    <main class="container">
+
+      <section class="row">
+        <h2 class="col-12">Estimation</h2>
+        <!-- Surface -->
+        <div class="input-group offset-2 col-8 mb-3">
+          <div class="input-group-prepend col-4">
+            <span class="input-group-text" id="surface">Surface</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Surface en m²" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        
+        <!-- Nombre de chambres -->
+        <div class="input-group offset-2 col-8  mb-3">
+          <div class="input-group-prepend col-4">
+            <span class="input-group-text" id="chambres">Chambres</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Nombre de chambres" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+       
+        <!-- matériau -->
+        <div class="input-group offset-2 col-8  mb-3">
+          <div class="input-group-prepend col-4">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Matériau</button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">parpaing</a>
+              <a class="dropdown-item" href="#">bois</a>
+              <a class="dropdown-item" href="#">brique</a>
+            </div>
+          </div>
+          <input type="text" class="form-control" placeholder="Sélectionnez le matériau" aria-label="Text input with dropdown button">
+        </div>
+    
+        <hr class="offset-2 col-8" >
+        
+        <!-- estimation -->
+        <div class="input-group offset-2 col-8 mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon1">Votre estimation</button>
+          </div>
+          <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
+        
     </main>
     <!-- END MAIN -->
 

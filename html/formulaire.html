@@ -46,10 +46,68 @@
 </div>
 
     <!-- MAIN -->
-    <main class="container col-11">
-      <section class="text-center">
-        <h2>FORMULAIRE</h2>
-      </section>
+    <main class="container">
+
+      <section class="row">
+    
+        <h2>Formulaire de contact</h2>
+    
+        <!-- Nom -->
+        <div class="input-group offset-2 col-8 mb-3">
+          <div class="input-group-prepend col-4">
+            <span class="input-group-text" id="nom">Nom</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Votre nom" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        
+        <!-- Prénom -->
+        <div class="input-group offset-2 col-8  mb-3">
+          <div class="input-group-prepend col-4">
+            <span class="input-group-text" id="prenom">Prénom</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Votre prénom" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+       
+        <!-- Téléphone -->
+        <div class="input-group offset-2 col-8  mb-3">
+          <div class="input-group-prepend col-4">
+            <span class="input-group-text" id="prenom">Téléphone</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Votre téléphone" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+       
+        <!-- Motif du contact -->
+        <div class="input-group offset-2 col-8  mb-3">
+          <div class="input-group-prepend col-4">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Motif</button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">devis</a>
+              <a class="dropdown-item" href="#">information</a>
+              <a class="dropdown-item" href="#">réclamation</a>
+            </div>
+          </div>
+          <input type="text" class="form-control" placeholder="Sélectionnez le motif" aria-label="Text input with dropdown button">
+        </div>
+    
+        <!-- Message -->
+        <div class="input-group offset-2 col-8  mb-3">
+          <div class="input-group-prepend col-4">
+            <span class="input-group-text" id="prenom">Message</span>
+          </div>
+          <input type="textarea" class="form-control" placeholder="Votre message" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+       
+        <div class="alert alert-dark offset-2 col-8" role="alert">
+          Il vous reste 400 caractères
+        </div>  
+        
+        <hr class="offset-2 col-8" >
+        
+        <!-- validation -->
+        <div class="offset-2 col-8 mb-3">
+            <button class="btn btn-outline-secondary btn-block" type="button" id="button-addon1">Valider</button>
+        </div>
+
     </main>
     <!-- END MAIN -->
 
