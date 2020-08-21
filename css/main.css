@@ -86,10 +86,21 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+ .jumbotron{
+   background-color:transparent !important;
+  }
+
 .bg-banner {
-  background-image: url("../img/banniere.jpg");
+  background-image: url("../img/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bg-footer {
+  background-image: url("../img/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -9vh;
 }
 /* ==========================================================================
    Helper classes
