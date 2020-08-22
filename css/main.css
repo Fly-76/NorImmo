@@ -86,6 +86,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
  .jumbotron{
    background-color:transparent !important;
   }
@@ -101,6 +103,14 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -9vh;
+}
+
+#footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100%;
 }
 /* ==========================================================================
    Helper classes
