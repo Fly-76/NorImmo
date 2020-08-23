@@ -1,21 +1,35 @@
-document.getElementById("q1").style.display="none";
-document.getElementById("q2").style.display="none";
-document.getElementById("q3").style.display="none";
+//automatiquely hidde answer
+let question1 = document.getElementById("question1");
+question1.style.display = "none";
 
-function showResult() {
-    document.getElementById("q1").style.display = "block";
-    console.log("q1");
-    document.getElementById("q2").style.display = "block";
-    console.log("q2");
-    document.getElementById("q3").style.display = "block";
-    console.log("q3");
-}
+let question2 = document.getElementById("question2");
+question2.style.display = "none";
 
-function hiddeResult() {
-    document.getElementById("q1").style.display = "none";
-    console.log("q1");
-    document.getElementById("q2").style.display = "none";
-    console.log("q2");
-    document.getElementById("q3").style.display = "none";
-    console.log("q3");
-}
+let question3 = document.getElementById("question3");
+question3.style.display = "none";
+
+//show and hidde answer
+
+function showResult1() { 
+    if (question1.style.display === "none") {
+        question1.style.display = "block";
+    } else {
+        question1.style.display = "none";
+    }
+} 
+
+function showResult2() { 
+    if (question2.style.display === "none") {
+        question2.style.display = "block";
+    } else {
+        question2.style.display = "none";
+    }
+} 
+
+function showResult3() { 
+    if (question3.style.display === "none") {
+        question3.style.display = "block";
+    } else {
+        question3.style.display = "none";
+    }
+} 

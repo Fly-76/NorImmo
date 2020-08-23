@@ -91,6 +91,12 @@ textarea {
  .jumbotron{
    background-color:transparent !important;
   }
+body{
+  position: relative;
+}
+main{
+  height: 100vh;
+}
 
 .bg-banner {
   background-image: url("../img/banner.png");
@@ -106,11 +112,10 @@ textarea {
 }
 
 #footer {
-  position: sticky;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 100%;
+  height: 15%;
 }
 /* ==========================================================================
    Helper classes
