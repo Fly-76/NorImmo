@@ -14,43 +14,113 @@
   </head>
 
   <body>
-    <!-- NAV -->
-    <nav class="navbar navbar-expand-lg navbar-info bg-warning">
-      <a class="navbar-brand" href="../index.html">NorImmo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="bg-banner">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"><a class="nav-link" href="../index.html">Index<span class="sr-only">(current)</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="estimation.html">Estimation</a></li>
-          <li class="nav-item"><a class="nav-link" href="formulaire.html">Formulaire</a></li>
-          <li class="nav-item"><a class="nav-link" href="question.html">Question</a></li>
-        </ul>
-      </div>
-    </nav>
-    <!-- END NAV -->
+      <!-- NAV -->
+<nav class="navbar navbar-expand-lg navbar-info">
+  <a class="navbar-brand text-white" href="../index.html">NorImmo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <!-- HEADER -->
-    <header class="jumbotron jumbotron-fluid col-11 my-4 mx-auto bg-banner">
-      <section>
-        <h1 class="display-1 text-white">NorImmo</h1>
-        <p class="lead text-white">NorImmo agence immobiliere</p>
-      </section>
-    </header>
-    <!-- END HEADER -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"><a class="nav-link text-white" href="../index.html">Index<span class="sr-only">(current)</span></a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="estimation.html">Estimation</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="formulaire.html">Formulaire</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="question.html">Question</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- END NAV -->
+
+<!-- HEADER -->
+<header class="jumbotron-contain my-4 mx-auto">
+  <section>
+    <h1 class="display-1 text-white">NorImmo</h1>
+    <p class="lead text-white">NorImmo agence immobiliere</p>
+  </section>
+</header>
+<!-- END HEADER -->
+
+</div>
 
     <!-- MAIN -->
-    <main class="container col-11">
-      <section class="">
-        <h2>FORMULAIRE</h2>
-      </section>
+    <main class="container">
+
+      <section class="row">
+    
+        <h2>Formulaire de contact</h2>
+    
+        <!-- Nom -->
+        <div class="input-group offset-2 col-8 mb-3">
+          <div class="input-group-prepend col-4">
+            <span class="input-group-text" id="nom">Nom</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Votre nom" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        
+        <!-- Prénom -->
+        <div class="input-group offset-2 col-8  mb-3">
+          <div class="input-group-prepend col-4">
+            <span class="input-group-text" id="prenom">Prénom</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Votre prénom" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+       
+        <!-- Téléphone -->
+        <div class="input-group offset-2 col-8  mb-3">
+          <div class="input-group-prepend col-4">
+            <span class="input-group-text" id="prenom">Téléphone</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Votre téléphone" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+       
+        <!-- Motif du contact -->
+        <div class="input-group offset-2 col-8  mb-3">
+          <div class="input-group-prepend col-4">
+            <button id="btnDropDown" class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Motif</button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">devis</a>
+              <a class="dropdown-item" href="#">information</a>
+              <a class="dropdown-item" href="#">réclamation</a>
+            </div>
+          </div>
+          <input type="text" class="form-control" placeholder="Sélectionnez le motif" aria-label="Text input with dropdown button">
+        </div>
+    
+        <!-- Message -->
+        <div class="input-group offset-2 col-8  mb-3">
+          <div class="input-group-prepend col-4">
+            <span class="input-group-text" id="prenom">Message</span>
+          </div>
+          <!-- <input type="textarea" class="form-control" placeholder="Votre message" aria-label="Username" aria-describedby="basic-addon1"> -->
+          <textarea class="form-control" aria-label="With textarea" placeholder="Votre message"></textarea>
+        </div>
+
+        <!-- <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">With textarea</span>
+          </div>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>         -->
+
+        <div id="count" class="alert alert-dark offset-2 col-8 text-center" role="alert">
+          Il vous reste 400 caractères
+        </div>  
+        
+        <hr class="offset-2 col-8" >
+        
+        <!-- validation -->
+        <div class="offset-2 col-8 mb-3">
+            <button id="btnSubmit" class="btn btn-outline-secondary btn-block" type="button" id="button-addon1">Valider</button>
+        </div>
+
     </main>
     <!-- END MAIN -->
 
     <!-- Footer -->
-    <footer class="page-footer font-small bg-primary pt-1">
+    <footer class="page-footer font-small bg-footer pt-1">
       <div class="container text-center">
         <section class="mt-md-0 mt-3">
           <h5 class="text-uppercase text-white">NorImmo</h5>

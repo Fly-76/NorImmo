@@ -14,26 +14,28 @@
   </head>
 
   <body>
-    <!-- NAV -->
-    <nav class="navbar navbar-expand-lg navbar-info bg-warning">
-      <a class="navbar-brand" href="../index.html">NorImmo</a>
+    <div class="bg-banner">
+
+          <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-info">
+      <a class="navbar-brand text-white" href="../index.html">NorImmo</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"><a class="nav-link" href="../index.html">Index<span class="sr-only">(current)</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="estimation.html">Estimation</a></li>
-          <li class="nav-item"><a class="nav-link" href="formulaire.html">Formulaire</a></li>
-          <li class="nav-item"><a class="nav-link" href="question.html">Question</a></li>
+          <li class="nav-item active"><a class="nav-link text-white" href="../index.html">Index<span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="estimation.html">Estimation</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="formulaire.html">Formulaire</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="question.html">Question</a></li>
         </ul>
       </div>
     </nav>
     <!-- END NAV -->
 
     <!-- HEADER -->
-    <header class="jumbotron jumbotron-fluid col-11 my-4 mx-auto bg-banner">
+    <header class="jumbotron-contain my-4 mx-auto">
       <section>
         <h1 class="display-1 text-white">NorImmo</h1>
         <p class="lead text-white">NorImmo agence immobiliere</p>
@@ -41,16 +43,57 @@
     </header>
     <!-- END HEADER -->
 
+    </div>
+
     <!-- MAIN -->
-    <main class="container col-11">
-      <section class="">
-        <h2>Estimation</h2>
-      </section>
+    <main class="container">
+
+      <section class="row">
+        <h2 class="col-12">Estimation</h2>
+        <!-- Surface -->
+        <div class="input-group offset-2 col-8 mb-3">
+          <div class="input-group-prepend col-4">
+            <span class="input-group-text" id="surface">Surface</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Surface en m²" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        
+        <!-- Nombre de chambres -->
+        <div class="input-group offset-2 col-8  mb-3">
+          <div class="input-group-prepend col-4">
+            <span class="input-group-text" id="chambres">Chambres</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Nombre de chambres" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+       
+        <!-- matériau -->
+        <div class="input-group offset-2 col-8  mb-3">
+          <div class="input-group-prepend col-4">
+            <button id="btnDropDown" class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Matériau</button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">parpaing</a>
+              <a class="dropdown-item" href="#">bois</a>
+              <a class="dropdown-item" href="#">brique</a>
+            </div>
+          </div>
+          <input type="text" class="form-control" placeholder="Sélectionnez le matériau" aria-label="Text input with dropdown button">
+        </div>
+    
+        <hr class="offset-2 col-8" >
+        
+        <!-- estimation -->
+        <div class="input-group offset-2 col-8 mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-secondary" type="button" id="btnEstimation">Votre estimation</button>
+          </div>
+          <input type="text" class="form-control text-center" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
+        
     </main>
     <!-- END MAIN -->
 
     <!-- Footer -->
-    <footer class="page-footer font-small bg-primary pt-1">
+    <footer class="page-footer font-small bg-footer pt-1">
       <div class="container text-center">
         <section class="mt-md-0 mt-3">
           <h5 class="text-uppercase text-white">NorImmo</h5>

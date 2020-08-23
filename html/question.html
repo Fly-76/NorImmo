@@ -14,55 +14,86 @@
   </head>
 
   <body>
-    <!-- NAV -->
-    <nav class="navbar navbar-expand-lg navbar-info bg-warning">
-      <a class="navbar-brand" href="../index.html">NorImmo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="bg-banner">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"><a class="nav-link" href="../index.html">Index<span class="sr-only">(current)</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="estimation.html">Estimation</a></li>
-          <li class="nav-item"><a class="nav-link" href="formulaire.html">Formulaire</a></li>
-          <li class="nav-item"><a class="nav-link" href="question.html">Question</a></li>
-        </ul>
-      </div>
-    </nav>
-    <!-- END NAV -->
+      <!-- NAV -->
+<nav class="navbar navbar-expand-lg navbar-info">
+  <a class="navbar-brand text-white" href="../index.html">NorImmo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <!-- HEADER -->
-    <header class="jumbotron jumbotron-fluid col-11 my-4 mx-auto bg-banner">
-      <section>
-        <h1 class="display-1 text-white">NorImmo</h1>
-        <p class="lead text-white">NorImmo agence immobiliere</p>
-      </section>
-    </header>
-    <!-- END HEADER -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"><a class="nav-link text-white" href="../index.html">Index<span class="sr-only">(current)</span></a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="estimation.html">Estimation</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="formulaire.html">Formulaire</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="question.html">Question</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- END NAV -->
+
+<!-- HEADER -->
+<header class="jumbotron-contain my-4 mx-auto">
+  <section>
+    <h1 class="display-1 text-white">NorImmo</h1>
+    <p class="lead text-white">NorImmo agence immobiliere</p>
+  </section>
+</header>
+<!-- END HEADER -->
+</div>
 
     <!-- MAIN -->
     <main class="container col-11">
-      <section class="">
-        <h2>question</h2>
+      <section class="text-center">
+        <h2>F.A.Q</h2>
+      </section>
+      <section class="text-lfet border border-info my-4">
+        <div class="pointer bg-question border border-info d-flex justify-content-start px-4" onclick="showResult1()">
+          <h2 class="mr-4">Question</h2>
+          <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-arrow-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4.646 9.646a.5.5 0 0 1 .708 0L8 12.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
+            <path fill-rule="evenodd" d="M8 2.5a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-1 0V3a.5.5 0 0 1 .5-.5z"/>
+          </svg>
+        </div>
+        <p id="question1" class="px-4 m-0 bg-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, provident quaerat dolor ipsum voluptatum distinctio possimus quidem expedita odit repellat labore dignissimos natus, ratione sed, quia alias a nobis? Distinctio.
+        </p>
+      </section>
+      <section class="text-lfet border border-info my-4">
+        <div class="pointer bg-question border border-info d-flex justify-content-start px-4" onclick="showResult2()">
+          <h2 class="mr-4">Question</h2>
+          <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-arrow-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4.646 9.646a.5.5 0 0 1 .708 0L8 12.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
+            <path fill-rule="evenodd" d="M8 2.5a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-1 0V3a.5.5 0 0 1 .5-.5z"/>
+          </svg>
+        </div>
+        <p id="question2" class="px-4 m-0 bg-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, provident quaerat dolor ipsum voluptatum distinctio possimus quidem expedita odit repellat labore dignissimos natus, ratione sed, quia alias a nobis? Distinctio.
+        </p>
+      </section>      
+      <section class="text-lfet border border-info my-4">
+        <div class="pointer bg-question border border-info d-flex justify-content-start px-4" onclick="showResult3()">
+          <h2 class="mr-4">Question</h2>
+          <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-arrow-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4.646 9.646a.5.5 0 0 1 .708 0L8 12.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
+            <path fill-rule="evenodd" d="M8 2.5a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-1 0V3a.5.5 0 0 1 .5-.5z"/>
+          </svg>
+        </div>
+        <p id="question3" class="px-4 m-0 bg-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, provident quaerat dolor ipsum voluptatum distinctio possimus quidem expedita odit repellat labore dignissimos natus, ratione sed, quia alias a nobis? Distinctio.
+        </p>
       </section>
     </main>
     <!-- END MAIN -->
 
     <!-- Footer -->
-    <footer class="page-footer font-small bg-primary pt-1">
+    <footer id="footer" class="page-footer font-small bg-footer pt-1">
       <div class="container text-center">
-        <section class="mt-md-0 mt-3">
-          <h5 class="text-uppercase text-white">NorImmo</h5>
-          <p class="text-white">Une agence qui vous ressemble.</p>
+        <section class="d-flex justify-content-center pr-5 pt-5 mt-md-5">
+          <h5 class="text-uppercase text-white pr-5">NorImmo</h5>
+          <p class="text-white pr-5">Une agence qui vous ressemble.</p>
+          <p class="text-white pr-5">© 2020 Copyright</p>
         </section>
-        <hr class="clearfix w-100 d-md-none pb-3" />
       </div>
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">
-        <p class="text-white">© 2020 Copyright</p>
-      </div>
-      <!-- END Copyright -->
     </footer>
     <!-- END Footer -->
 
