@@ -95,9 +95,12 @@ body{
   position: relative;
 }
 
+<<<<<<< HEAD
 a{
   text-decoration: none;
 }
+=======
+>>>>>>> 7592871d72e2feda4c4a0d659d836a0a9234d2e1
 
 main{
   height: 100vh;
@@ -116,12 +119,12 @@ main{
   background-position-y: -9vh;
 }
 
-#footer {
+/* #footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 15%;
-}
+} */
 /* ==========================================================================
    Helper classes
    ========================================================================== */
