@@ -94,6 +94,11 @@ textarea {
 body{
   position: relative;
 }
+
+a{
+  text-decoration: none;
+}
+
 main{
   height: 100vh;
 }
