@@ -88,23 +88,29 @@ textarea {
    ========================================================================== */
 
 
- .jumbotron{
-   background-color:transparent !important;
-  }
-body{
-  position: relative;
-  height: 100vh;
+.jumbotron{
+  background-color:transparent !important;
 }
 
-
-/* main{
-  height: 100vh;
-} */
+.bg-blue{
+  background-color: rgba(0, 225, 255, 0.171);
+}
 
 .bg-banner {
   background-image: url("../img/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+body{
+  position: relative;
+  height: 20rem;
+}
+
+
+main{
+  margin-top: 6rem;
+  margin-bottom: 10rem;
 }
 
 .bg-footer {
