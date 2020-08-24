@@ -65,7 +65,7 @@ function checkForm() {
 }
 
 btnSubmit.addEventListener("click", checkForm);
-document.onload(initField());
+//document.onload(initField());
 
 // ***********************************************************************************
 // Set evt listener for motifs dropbox
